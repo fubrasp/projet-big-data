@@ -30,7 +30,7 @@ End with an example of getting some data out of the system or using it for a lit
 ## Deployment
 
 you can see results on 
-* [bertrandguillaume](http://www.bertrandguillaume.fr/q1.html) - The web framework used
+* [bertrandguillaume](http://www.bertrandguillaume.fr/q1.html) - questions results
 
 ## Versioning
 
