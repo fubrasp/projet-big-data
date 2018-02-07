@@ -14,7 +14,7 @@ see `build.sbt
 ### Installing
 
 1. Open project with `IntelliJ IDEA`
-2. add your `crimes.csv` to the current directory (have a look to crimes-little.csv`)
+2. add your `crimes.csv` to the current directory (have a look to `crimes-little.csv`)
 3. do a `npm install` in the current directory
 4. run the Main (You must named your data file `crimes.csv`)
 5. generate the results
