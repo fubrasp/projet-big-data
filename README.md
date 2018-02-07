@@ -9,7 +9,7 @@ You need
 * JDK >= 8
 * scala
 
-see `build.sbt
+see `build.sbt`
 
 ### Installing
 
