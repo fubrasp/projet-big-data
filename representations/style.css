@@ -1,0 +1,92 @@
+/*separation*/
+hr{
+    margin: 5% 0%;
+}
+
+/*createur*/
+#copyleft{
+    margin-top: 5%;
+}
+
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: inline;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: darkred;
+}
+
+li a:hover {
+    background-color:   #ffc266;
+    color: white;
+}
+
+li{
+    display : inline;
+}
+
+/*Numbre de crimes par marqueur*/
+/*#map{
+    z-index: -1;
+}
+
+#mapq3{
+    z-index: -1;
+}
+circle{
+    z-index: 1;
+}*/
+g.value {
+    display: block;
+    background-color: yellow;
+    z-index: 3;
+}
+
+circle{
+    color: yellow;
+}
+
+/**/
+.rectmdg, .rectdg{
+    width:30px;
+    height:15px;
+}
+
+.rectdg{
+    background:red;
+}
+
+.rectmdg{
+    background:blue;
+}
+
+#caption{
+    margin-top: 4%;
+    margin-left: 2%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: lightgrey;
+    width: 30%;
+    padding-left: 5%;
+    font-family: Arial, serif;
+}
+
+circle{
+    position: relative;
+}
+text{
+    position: relative;
+    display: block;
+    font-family: Arial;
+    font-size: 1000px;
+    color: black;
+}
