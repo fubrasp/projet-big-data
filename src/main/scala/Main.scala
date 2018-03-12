@@ -57,7 +57,8 @@ object Main {
       .sortBy(sortLine => (- sortLine._2))
       .saveAsTextFile("q1")
 
-    "Q1: "+println(System.currentTimeMillis - debut1)+" ms"
+    println("Q1: "+(System.currentTimeMillis - debut1)+" ms")
+
 
     //Q2
     val debut2 = System.currentTimeMillis();
@@ -69,7 +70,9 @@ object Main {
       .map(t => (getInterval(t.toInt), 1))
       .reduceByKey(_ + _)
       .saveAsTextFile("q2")
-    "Q2: "+println(System.currentTimeMillis - debut1)+" ms"
+
+    println("Q2: "+(System.currentTimeMillis - debut2)+" ms")
+
 
     //Q3
     val debut3 = System.currentTimeMillis();
@@ -100,7 +103,8 @@ object Main {
         (finalAffectation._1(line._1))
       })
       .saveAsTextFile("q3-moins-dangereux")
-    "Q3: "+println(System.currentTimeMillis - debut1)+" ms"
+
+    println("Q3: "+(System.currentTimeMillis - debut3)+" ms")
 
     //Q4
     val debut4 = System.currentTimeMillis();
@@ -114,7 +118,8 @@ object Main {
         .map(t => (t, 1))
         .reduceByKey(_ + _)
     .saveAsTextFile("q4")
-    "Q4: "+println(System.currentTimeMillis - debut1)+" ms"
+
+    println("Q4: "+(System.currentTimeMillis - debut4)+" ms")
 
     //Q5
     val debut5 = System.currentTimeMillis();
@@ -133,8 +138,7 @@ object Main {
         .map(line => (getMonth(line._1.toInt),line._2))
         .saveAsTextFile("q5")
 
-    "Q5: "+println(System.currentTimeMillis - debut1)+" ms"
-
+    println("Q5: "+(System.currentTimeMillis - debut5)+" ms")
   }
 
   def getSparkContext(): SparkContext = {
